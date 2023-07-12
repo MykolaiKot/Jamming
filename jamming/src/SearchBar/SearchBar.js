@@ -4,7 +4,9 @@ import React from 'react'
 function SearchBar() {
    return (
     <>
-    <h1>SearchBar</h1>
+    <label>Enter Song Name</label>
+    <input></input>
+    <button>Search</button>
     </>
    ) 
 }
