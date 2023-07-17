@@ -1,9 +1,12 @@
 import React from 'react'
 
 
-function SearchResults() {
+function SearchResults({ searchValue }) {
     return (
-        <h1>Search Results</h1>
+        <>
+        <h1>{searchValue}</h1>
+        
+        </>
     )
 }
 
